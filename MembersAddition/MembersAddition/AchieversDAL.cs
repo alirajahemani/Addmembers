@@ -65,7 +65,7 @@ namespace AchieversCPS
 
         List<Users> allUsers = new List<Users>();
         SqlConnection conn1 = new SqlConnection(@"Data Source=dcm.uhcl.edu;Initial Catalog=c432016sp01hemania;User ID=hemania;Password=1456068");
-        SqlConnection conn2 = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename='C:\Users\alira\Documents\Visual Studio 2013\Projects\CPSFinal\CPSFinal\App_Data\CourseCatalog.mdf';Integrated Security=True");
+        //SqlConnection conn2 = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename='C:\Users\alira\Documents\Visual Studio 2013\Projects\CPSFinal\CPSFinal\App_Data\CourseCatalog.mdf';Integrated Security=True");
         OleDbConnection MyConnection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\alira\Documents\Visual Studio 2013\Projects\CPSFinal\CPSFinal\DefaultPDF's\UHCL_EM_ACTIVE_COURSE_CATALOG_7133.xlsx;Extended Properties='Excel 8.0;HDR=Yes'");
     
         
